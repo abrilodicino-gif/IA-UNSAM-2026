@@ -51,3 +51,4 @@ Resultado: se probó la partida en el navegador. Las letras se pueden elegir con
 ## Reflexión
 
 La parte más difícil del pedido fue decidir qué dejar afuera. Ahorcado puede crecer con categorías, dibujos complejos, pistas y puntajes, pero esas funciones no mejoraban el objetivo del laboratorio. El pedido funcionó porque dejó claras las reglas, los archivos esperados y la forma de verificarlo. Si tuviera que enviarlo de nuevo, aclararía además que la lista de palabras debe mantenerse pequeña y sin caracteres especiales para que las pruebas sean más directas.
+El agente no agregó funciones ajenas al pedido, como niveles, puntajes, sonidos o imágenes externas. Tampoco dejó sin implementar ninguna de las funciones solicitadas: el juego funciona, la lógica está separada de la interfaz y los cinco tests pasan correctamente.
